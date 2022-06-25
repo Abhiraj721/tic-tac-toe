@@ -1,5 +1,7 @@
+@import url('http://fonts.cdnfonts.com/css/8bit-wonder');
 body{
-    background-color: white;
+    font-family:'8BIT WONDER', sans-serif ;
+    background-color: rgb(208, 170, 219);
 }
 button{
     background-color: transparent;
@@ -11,7 +13,8 @@ width: 100px;
     font-family: '8BIT WONDER', sans-serif;
 }
 .restart{
-    width: 160px;
+    width: 160
+    px;
     height: 36px;
     font-size: 11px;
     font-family:'8BIT WONDER', sans-serif ;

@@ -20,7 +20,7 @@ for(let i=0;i<main;i++){
       }
       else if(change.innerHTML=="click me"){
         getchance.innerHTML="Its Player 2 chance"
-           change.innerHTML="<img src='https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776' height='80' width='80'>"
+           change.innerHTML="<img src='o.png' height='80' width='80'>"
            move.play()
 g++
 console.log(g+"o")
@@ -41,7 +41,7 @@ var images = $(b3).attr("src");
 
     console.group(images)
     // rows
-   if( $(b0).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b1).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b2).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" || $(b0).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" && $(b1).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" &&  $(b2).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776"){
+   if( $(b0).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b1).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b2).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" || $(b0).attr("src")=="o.png" && $(b1).attr("src")=="o.png" &&  $(b2).attr("src")=="o.png"){
     if( $(b0).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png"){
       getchance.innerHTML=" Player 1 Wins"
       getchance.style.fontSize="34px"
@@ -52,7 +52,7 @@ var images = $(b3).attr("src");
      
 
     }
-    else if( $(b0).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" &&  $(b2).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776"){
+    else if( $(b0).attr("src")=="o.png" &&  $(b2).attr("src")=="o.png"){
       getchance.innerHTML=" Player 2 Wins"
       getchance.style.fontSize="34px"
       getchance.style.backdropFilter="blur(9px)"
@@ -62,7 +62,7 @@ var images = $(b3).attr("src");
     }
 
    }
-  else if( $(b3).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b4).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b5).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" || $(b3).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" && $(b4).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" &&  $(b5).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776"){
+  else if( $(b3).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b4).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b5).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" || $(b3).attr("src")=="o.png" && $(b4).attr("src")=="o.png" &&  $(b5).attr("src")=="o.png"){
     if( $(b3).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png"){
       getchance.innerHTML=" Player 1 Wins"
 
@@ -72,7 +72,7 @@ var images = $(b3).attr("src");
       victory.play()
       return
     }
-    else if( $(b3).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" ){
+    else if( $(b3).attr("src")=="o.png" ){
       getchance.innerHTML=" Player 2 Wins"
       getchance.style.fontSize="34px"
       getchance.style.backdropFilter="blur(9px)"
@@ -83,7 +83,7 @@ var images = $(b3).attr("src");
 
 
   }
-  else if( $(b6).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b7).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b8).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" || $(b6).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" && $(b7).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" &&  $(b8).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776"){
+  else if( $(b6).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b7).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b8).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" || $(b6).attr("src")=="o.png" && $(b7).attr("src")=="o.png" &&  $(b8).attr("src")=="o.png"){
     if( $(b6).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png"){
       getchance.innerHTML=" Player 1 Wins"
       getchance.style.fontSize="34px"
@@ -92,7 +92,7 @@ var images = $(b3).attr("src");
       victory.play()
       return
     }
-    else if( $(b6).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" &&  $(b2).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776"){
+    else if( $(b6).attr("src")=="o.png" &&  $(b2).attr("src")=="o.png"){
       getchance.innerHTML=" Player 2 Wins"
       getchance.style.fontSize="34px"
       getchance.style.backdropFilter="blur(9px)"
@@ -108,7 +108,7 @@ var images = $(b3).attr("src");
 
 
   // colums
- else if( $(b0).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b3).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b6).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" || $(b0).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" && $(b3).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" &&  $(b6).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776"){
+ else if( $(b0).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b3).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b6).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" || $(b0).attr("src")=="o.png" && $(b3).attr("src")=="o.png" &&  $(b6).attr("src")=="o.png"){
   if( $(b0).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png"){
     getchance.innerHTML=" Player 1 Wins"
     getchance.style.fontSize="34px"
@@ -116,7 +116,7 @@ var images = $(b3).attr("src");
     getchance.style.color="purple"
     victory.play()
   }
-  else if( $(b0).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" &&  $(b2).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776"){
+  else if( $(b0).attr("src")=="o.png" &&  $(b2).attr("src")=="o.png"){
     getchance.innerHTML=" Player 2 Wins"
     getchance.style.fontSize="34px"
     getchance.style.backdropFilter="blur(9px)"
@@ -125,7 +125,7 @@ var images = $(b3).attr("src");
   }
 
   }
- else if( $(b1).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b4).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b7).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" || $(b1).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" && $(b4).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" &&  $(b7).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776"){
+ else if( $(b1).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b4).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b7).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" || $(b1).attr("src")=="o.png" && $(b4).attr("src")=="o.png" &&  $(b7).attr("src")=="o.png"){
   if( $(b1).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png"){
     getchance.innerHTML=" Player 1 Wins"
     getchance.style.fontSize="34px"
@@ -133,7 +133,7 @@ var images = $(b3).attr("src");
     getchance.style.color="purple"
     victory.play()
   }
-  else if( $(b1).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" &&  $(b2).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776"){
+  else if( $(b1).attr("src")=="o.png" &&  $(b2).attr("src")=="o.png"){
     getchance.innerHTML=" Player 2 Wins"
     getchance.style.fontSize="34px"
     getchance.style.backdropFilter="blur(9px)"
@@ -142,7 +142,7 @@ var images = $(b3).attr("src");
   }
 
  }
- else if( $(b2).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b5).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b8).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" || $(b2).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" && $(b5).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" &&  $(b8).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776"){
+ else if( $(b2).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b5).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b8).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" || $(b2).attr("src")=="o.png" && $(b5).attr("src")=="o.png" &&  $(b8).attr("src")=="o.png"){
   if( $(b2).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png"){
     getchance.innerHTML=" Player 1 Wins"
     getchance.style.fontSize="34px"
@@ -150,7 +150,7 @@ var images = $(b3).attr("src");
     getchance.style.color="purple"
     victory.play()
   }
-  else if( $(b2).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" &&  $(b2).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776"){
+  else if( $(b2).attr("src")=="o.png" &&  $(b2).attr("src")=="o.png"){
     getchance.innerHTML=" Player 2 Wins"
     getchance.style.fontSize="34px"
     getchance.style.backdropFilter="blur(9px)"
@@ -160,7 +160,7 @@ var images = $(b3).attr("src");
 
  }
 //  diagonals
- else if( $(b2).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b4).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b6).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" || $(b2).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" && $(b4).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" &&  $(b6).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776"){
+ else if( $(b2).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b4).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b6).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" || $(b2).attr("src")=="o.png" && $(b4).attr("src")=="o.png" &&  $(b6).attr("src")=="o.png"){
   if( $(b2).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png"){
     getchance.innerHTML=" Player 1 Wins"
     getchance.style.fontSize="34px"
@@ -168,7 +168,7 @@ var images = $(b3).attr("src");
     getchance.style.color="purple"
     victory.play()
   }
-  else if( $(b2).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" &&  $(b2).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776"){
+  else if( $(b2).attr("src")=="o.png" &&  $(b2).attr("src")=="o.png"){
     getchance.innerHTML=" Player 2 Wins"
     getchance.style.fontSize="34px"
     getchance.style.backdropFilter="blur(9px)"
@@ -177,7 +177,7 @@ var images = $(b3).attr("src");
   }
 
  }
- else if( $(b0).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b4).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b8).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" || $(b0).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" && $(b4).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" &&  $(b8).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776"){
+ else if( $(b0).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b4).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" && $(b8).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png" || $(b0).attr("src")=="o.png" && $(b4).attr("src")=="o.png" &&  $(b8).attr("src")=="o.png"){
   if( $(b0).attr("src")=="https://cdn-icons-png.flaticon.com/128/32/32178.png"){
     getchance.innerHTML=" Player 1 Wins"
     getchance.style.fontSize="34px"
@@ -185,7 +185,7 @@ var images = $(b3).attr("src");
     getchance.style.color="purple"
     victory.play()
   }
-  else if( $(b0).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776" &&  $(b2).attr("src")=="https://cdn-icons.flaticon.com/png/128/3524/premium/3524377.png?token=exp=1656141775~hmac=d824c68193129b6f5cc876cd93728776"){
+  else if( $(b0).attr("src")=="o.png" &&  $(b2).attr("src")=="o.png"){
     getchance.innerHTML=" Player 2 Wins"
     getchance.style.fontSize="34px"
     getchance.style.backdropFilter="blur(9px)"
