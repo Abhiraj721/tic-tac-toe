@@ -1,0 +1,22 @@
+body{
+    background-color: white;
+}
+button{
+    background-color: transparent;
+    border: none;
+height: 100px;
+width: 100px;
+}
+.takeme{
+    font-family: '8BIT WONDER', sans-serif;
+}
+.restart{
+    width: 160px;
+    height: 36px;
+    font-size: 11px;
+    font-family:'8BIT WONDER', sans-serif ;
+}
+
+        
+        
+
